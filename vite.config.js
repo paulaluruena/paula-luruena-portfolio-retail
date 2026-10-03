@@ -15,7 +15,7 @@ export default defineConfig(({ command }) => ({
     },
     closeBundle() {
       mkdirSync('dist/assets', { recursive: true });
-      for (const file of ['Paula-Luruena-Marquez-Resume.pdf', 'DM-Sans-LICENSE.txt', 'Libre-Caslon-Display-LICENSE.txt', 'Libre-Caslon-Text-LICENSE.txt']) {
+      for (const file of ['Paula-Luruena-Marquez-Resume.pdf', 'instrument-sans-LICENSE.txt', 'instrument-serif-LICENSE.txt']) {
         copyFileSync(`assets/${file}`, `dist/assets/${file}`);
       }
       copyFileSync('.nojekyll', 'dist/.nojekyll');

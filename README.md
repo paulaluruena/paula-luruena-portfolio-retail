@@ -31,6 +31,6 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 ## Edit
 
 - `index.html` — all content
-- `styles.css` — ivory, black, and champagne editorial design
-- `script.js` — mobile menu, expandable experience, reading progress, gentle scroll reveals
-- `assets/` — portrait, artwork, local fonts with licenses, and the downloadable résumé
+- `styles.css` — porcelain and wine editorial design in Instrument Serif and Instrument Sans
+- `script.js` — focus tabs, filterable experience explorer, skills that jump to the roles where they were used, copy-email button, mobile menu
+- `assets/` — small portrait, local fonts with licenses, and the downloadable résumé
