@@ -14,8 +14,8 @@ This is one of three tailored portfolios built from the same background:
 
 - **Overview:** name, focus, and key facts, with a side rail for navigation and contact.
 - **Profile:** a short statement and bio.
-- **Focus areas:** expanding panels with the questions she would explore and the experience behind each.
-- **Experience:** a filterable explorer of every role, each with a timeline and a focus-specific note.
+- **Interests:** expanding panels for all three of her interest areas, with this portfolio’s main focus first.
+- **Experience:** a filterable explorer of every role, each with a timeline and a short takeaway. Roles most relevant to this portfolio are tagged.
 - **Competencies:** a matrix linking skills to the roles where they were built; selecting one filters the explorer.
 - **Background:** education, languages, community, and the roles she is pursuing.
 
@@ -32,7 +32,7 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 
 ## Edit
 
-All three portfolios share one design, so only their focus differs.
+All three portfolios share one design and the same content; each only shifts the emphasis toward its main focus.
 
 - `index.html` — page content
 - `styles.css` — shared design: Bodoni Moda and Hanken Grotesk, a side rail with live New Orleans and Madrid clocks, and wine accents

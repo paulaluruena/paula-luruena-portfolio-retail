@@ -116,6 +116,9 @@ main,.footer{margin-left:var(--rail)}
 .panel:not(.is-open) .panel-toggle:hover{background:#e4e1ea;color:var(--ink)}
 .panel-toggle .vlabel{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--serif);font-size:1.45rem;letter-spacing:-.01em;color:var(--ink);white-space:nowrap}
 .panel-toggle .glyph{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;box-shadow:inset 0 0 0 1px var(--line);background:var(--surface);transition:transform .5s var(--ease),background .3s,color .3s}
+.primary-tag{writing-mode:vertical-rl;transform:rotate(180deg);margin:auto 0 12px;padding:8px 3px;border-radius:999px;background:var(--blush);color:var(--wine);font-size:.72rem;font-weight:600;white-space:nowrap}
+.rel{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:999px;background:var(--blush);color:var(--wine);font-style:normal;font-size:.72rem;font-weight:600;vertical-align:2px;white-space:nowrap}
+.role-nav button[aria-current="true"] .rel{background:#fff}
 .panel.is-open .panel-toggle{border-right:1px solid var(--line-2)}
 .panel.is-open .panel-toggle .glyph{transform:rotate(45deg);background:var(--wine);color:#fff;box-shadow:none}
 .panel-body{flex:1;min-width:0;padding:clamp(28px,3.5vw,48px);display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,3vw,48px);align-content:start}
@@ -275,7 +278,9 @@ html:not(.js) .role-panel{position:static}
   .panels{flex-direction:column;min-height:0}
   .panel{flex:none;flex-direction:column;min-width:0}
   .panel-toggle,.panel:not(.is-open) .panel-toggle{width:100%;flex-direction:row;padding:18px 22px}
-  .panel-toggle .vlabel{writing-mode:horizontal-tb;transform:none;font-size:1.35rem}
+  .panel-toggle .vlabel{writing-mode:horizontal-tb;transform:none;font-size:1.2rem;white-space:normal;text-align:left;flex:1;line-height:1.2}
+  .panel-toggle .glyph{flex:none;margin-left:12px}
+  .primary-tag{writing-mode:horizontal-tb;transform:none;margin:0 0 0 10px;padding:3px 10px;flex:none}
   .panel.is-open .panel-toggle{border-right:0;border-bottom:1px solid var(--line-2)}
   .explorer-body{grid-template-columns:1fr}
   .role-panel{position:static}
