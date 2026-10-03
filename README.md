@@ -1,44 +1,36 @@
-# Paula Luruena Portfolio (Retail)
+# Paula Luruena Marquez — Fashion Psychology & Consumer Insight Portfolio
 
-A separate, editorial portfolio connecting Paula’s psychology and behavioral research background with her interests in consumer insight, client experience, fashion, and retail.
+An editorial portfolio for roles in **consumer insight, UX research, and client experience in fashion, beauty, and retail**. It connects Paula’s behavioral research and customer-facing experience with three areas of interest: fashion psychology, consumer decision-making, and the human side of AI-driven design.
+
+This is one of three tailored portfolios built from the same background:
+
+| Portfolio | Focus |
+|---|---|
+| `paula-luruena-portfolio-retail` (this one) | Fashion, retail, branding, design, and AI |
+| `Paula-Luruena-Professional-Portfolio_AIxMH` | AI and mental health |
+| `Paula_Luruena_Professional_Portfolio_IOpsych` | Industrial-organizational psychology |
 
 ## Content
 
-- An introduction and profile tailored to consumer and client insight opportunities.
-- Four detailed experience profiles, led by developmental research and data organization.
-- Methods and tools immediately after experience.
-- Interests in this order: fashion and retail; mental health and technology; people and organizations.
-- An expandable set of consumer research questions and direct links from methods to relevant experience.
-- Education, languages, community involvement, contact details, and a downloadable résumé.
-- Paula’s original photograph displayed as a small circular portrait.
+- **The Lens:** fashion psychology, consumer insight, and AI & design, each with its grounding in real experience, plus five research questions she’d explore with a brand.
+- **Experience:** all six roles from her CV, ordered for a consumer-facing team, each with a short note on what it brings to a brand.
+- **Capabilities:** tools and skills she has used, skills in development (Figma, Python, SQL, survey design), target roles, and industries.
+- **Profile:** education, minors, honors, campus involvement (including the AI & Society Club), languages, community work, and interests.
 
-Professional facts are based on Paula’s supplied September 2026 résumé. Career interests are labeled as interests. No CRM proficiency, business intelligence experience, commercial outcomes, or uncompleted projects are claimed. The downloadable résumé preserves her original professional history. Clinical observation remains distinct from supervised behavioral practice. The high school GPA is identified as belonging to Mercersburg Academy.
+Professional facts come from Paula’s CV and résumé. Career areas are presented as interests, and skills still in development are labeled that way. Street address and phone number are intentionally left off the public site.
 
 ## Run locally
 
-Open `index.html` directly in a browser, or use:
-
-```sh
-npm ci
-npm run dev
-```
-
-`npm run build` produces an optional production build in `dist`. The root files also work directly on GitHub Pages, without a build step.
+Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 
 ## GitHub Pages
 
-- Repository: https://github.com/paulaluruena/paula-luruena-portfolio-retail
 - Website: https://paulaluruena.github.io/paula-luruena-portfolio-retail/
-
-GitHub Pages serves the static files from **main → / (root)**. New commits to `main` trigger publication. The site uses relative asset paths so it works under the repository URL.
+- Published from **main → / (root)**. No build step is needed.
 
 ## Edit
 
-- `index.html` — content, experience, interests, education, and contact.
-- `styles.css` — editorial design, responsive layout, print styles, and accessibility states.
-- `script.js` — mobile navigation, experience disclosures, and active navigation.
-- `assets/Paula-Luruena-Marquez-Resume.pdf` — the downloadable résumé.
-- `assets/paula-portrait.png` — Paula’s unaltered source photograph; its circle is a CSS crop.
-- `assets/connection.webp` — original decorative AI-generated artwork, not a fashion project or work sample.
-
-The site uses local fonts with their licenses included. Street address and telephone number are omitted. Core content and experience disclosures work without JavaScript. Focus states, a skip link, reduced-motion preferences, and mobile layouts are included.
+- `index.html` — all content
+- `styles.css` — ivory, black, and champagne editorial design
+- `script.js` — mobile menu, expandable experience, reading progress, gentle scroll reveals
+- `assets/` — portrait, artwork, local fonts with licenses, and the downloadable résumé
