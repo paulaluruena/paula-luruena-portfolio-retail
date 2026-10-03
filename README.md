@@ -12,10 +12,12 @@ This is one of three tailored portfolios built from the same background:
 
 ## Content
 
-- **The Lens:** fashion psychology, consumer insight, and AI & design, each with its grounding in real experience, plus five research questions she’d explore with a brand.
-- **Experience:** all six roles from her CV, ordered for a consumer-facing team, each with a short note on what it brings to a brand.
-- **Capabilities:** tools and skills she has used, skills in development (Figma, Python, SQL, survey design), target roles, and industries.
-- **Profile:** education, minors, honors, campus involvement (including the AI & Society Club), languages, community work, and interests.
+- **Overview:** name, focus, and key facts, with a side rail for navigation and contact.
+- **Profile:** a short statement and bio.
+- **Focus areas:** expanding panels with the questions she would explore and the experience behind each.
+- **Experience:** a filterable explorer of every role, each with a timeline and a focus-specific note.
+- **Competencies:** a matrix linking skills to the roles where they were built; selecting one filters the explorer.
+- **Background:** education, languages, community, and the roles she is pursuing.
 
 Professional facts come from Paula’s CV and résumé. Career areas are presented as interests, and skills still in development are labeled that way. Street address and phone number are intentionally left off the public site.
 
@@ -30,7 +32,11 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 
 ## Edit
 
-- `index.html` — all content
-- `styles.css` — porcelain and wine editorial design in Instrument Serif and Instrument Sans
-- `script.js` — focus tabs, filterable experience explorer, skills that jump to the roles where they were used, copy-email button, mobile menu
+All three portfolios share one design, so only their focus differs.
+
+- `index.html` — page content
+- `styles.css` — shared design: Bodoni Moda and Hanken Grotesk, a side rail with live New Orleans and Madrid clocks, and wine accents
+- `script.js` — expanding focus panels, filterable experience explorer with a 2021–2027 timeline, competency matrix filters, copy-email button, and mobile menu
 - `assets/` — small portrait, local fonts with licenses, and the downloadable résumé
+
+Animations are disabled for people who prefer reduced motion, and the content stays readable without JavaScript.
