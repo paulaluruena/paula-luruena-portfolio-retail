@@ -209,5 +209,21 @@ addEventListener('scroll', schedule, { passive: true });
 addEventListener('resize', schedule);
 updatePosition();
 
+
+/* ---------- Reading progress on the story page ---------- */
+const readBar = document.querySelector('.read-progress span');
+if (readBar) {
+  const essay = document.querySelector('.essay');
+  let pending = false;
+  const update = () => {
+    pending = false;
+    const r = essay.getBoundingClientRect();
+    const total = r.height - innerHeight * 0.6;
+    readBar.style.transform = `scaleX(${Math.min(1, Math.max(0, -r.top / Math.max(1, total)))})`;
+  };
+  addEventListener('scroll', () => { if (!pending) { pending = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+}
+
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();

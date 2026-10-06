@@ -13,7 +13,8 @@ This is one of three tailored portfolios built from the same background:
 ## Content
 
 - **Overview:** name, focus, and key facts, with a side rail for navigation and contact.
-- **Profile:** a short statement and bio.
+- **Profile:** a short statement and bio, with psychology and helping others at the center.
+- **Why psychology (`story.html`):** an essay-style origin story in five chapters, with sidenotes, a reading progress bar, and a final chapter that connects psychology to this portfolio’s focus.
 - **Interests:** expanding panels for all three of her interest areas, with this portfolio’s main focus first.
 - **Experience:** a filterable explorer of every role, each with a timeline and a short takeaway. Roles most relevant to this portfolio are tagged.
 - **Competencies:** a matrix linking skills to the roles where they were built; selecting one filters the explorer.
@@ -34,7 +35,8 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 
 All three portfolios share one design and the same content; each only shifts the emphasis toward its main focus.
 
-- `index.html` — page content
+- `index.html` — portfolio page
+- `story.html` — the “Why psychology” page
 - `styles.css` — shared design: Bodoni Moda and Hanken Grotesk, a side rail with live New Orleans and Madrid clocks, and wine accents
 - `script.js` — expanding focus panels, filterable experience explorer with a 2021–2027 timeline, competency matrix filters, copy-email button, and mobile menu
 - `assets/` — small portrait, local fonts with licenses, and the downloadable résumé

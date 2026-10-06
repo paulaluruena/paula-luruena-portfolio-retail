@@ -256,6 +256,50 @@ html:not(.js) .role-panel{position:static}
 .footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:24px var(--pad);font-size:.88rem;color:var(--soft)}
 .footer a{color:inherit;text-underline-offset:4px}
 
+
+/* ---------- Story page ---------- */
+.read-progress{position:fixed;top:0;left:var(--rail);right:0;height:3px;z-index:40;pointer-events:none}
+.read-progress span{display:block;height:100%;background:var(--wine);transform:scaleX(0);transform-origin:left}
+.rail-nav a.nav-chapter{padding-left:24px;font-size:.9rem}
+.rail-nav a[aria-current="page"]{color:var(--ink);font-weight:600}
+.nav-story{color:var(--wine)!important}
+.story-hero{position:relative;padding-block:clamp(40px,6vw,72px) clamp(48px,6vw,80px);border-bottom:1px solid var(--line);overflow:hidden}
+.story-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(70% 90% at 100% 0%,var(--blush),transparent 60%);pointer-events:none}
+.story-hero>*{position:relative}
+.story-hero .hero-top a{color:var(--ink);text-underline-offset:4px}
+.story-title{font-family:var(--serif);font-weight:400;font-size:clamp(3.4rem,8.4vw,8.4rem);line-height:.92;letter-spacing:-.035em;margin:6px 0 28px}
+.js .story-title{animation:appear 1s var(--ease-out) both}
+.story-dek{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.2vw,1.75rem);line-height:1.35;color:var(--wine);max-width:34ch}
+.story-toc{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:clamp(36px,5vw,56px)}
+.story-toc a{display:grid;gap:6px;height:100%;padding:16px;border-radius:16px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);text-decoration:none;font-size:.94rem;line-height:1.35;transition:box-shadow .25s,transform .3s var(--ease)}
+.story-toc a:hover{box-shadow:inset 0 0 0 1px var(--wine);transform:translateY(-2px)}
+.story-toc span{font-family:var(--serif);font-size:1.5rem;color:var(--wine);line-height:1}
+.essay{padding-block:clamp(40px,6vw,80px) clamp(64px,8vw,112px)}
+.chapter{padding-block:clamp(40px,5vw,72px);border-bottom:1px solid var(--line-2)}
+.chapter:last-child{border-bottom:0}
+.chapter-head{max-width:680px;margin-bottom:28px}
+.chapter-num{display:block;font-size:.9rem;font-weight:600;color:var(--wine);margin-bottom:10px}
+.chapter-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.2rem,4.2vw,3.6rem);line-height:1.02;letter-spacing:-.025em}
+.chapter-sub{font-family:var(--serif);font-style:italic;font-size:1.4rem;color:var(--wine);margin-top:12px}
+.chapter-body{display:grid;grid-template-columns:minmax(0,680px) minmax(180px,250px);gap:clamp(28px,5vw,72px);align-items:start}
+.chapter-text>p{font-size:1.16rem;line-height:1.8;color:#2c2930;margin-bottom:1.15em;max-width:66ch}
+.dropcap::first-letter{float:left;font-family:var(--serif);font-size:5.4em;line-height:.78;padding:.06em .1em 0 0;color:var(--wine)}
+.pull{margin:1.6em 0 1.8em;padding:6px 0 6px 28px;border-left:2px solid var(--wine)}
+.pull p{font-family:var(--serif);font-style:italic;font-size:clamp(1.6rem,2.8vw,2.3rem);line-height:1.2;letter-spacing:-.01em;color:var(--wine)}
+.chapter-notes{position:sticky;top:32px;display:grid;gap:18px;padding-top:6px}
+.sidenote{font-size:.9rem;line-height:1.55;color:var(--soft);padding-left:14px;border-left:1px solid var(--line)}
+.sidenote cite{font-style:italic}
+.also{margin-top:36px;padding-top:28px;border-top:1px solid var(--line-2)}
+.also h3{font-size:1rem;font-weight:600;color:var(--soft);margin-bottom:14px}
+.also-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.also-card{padding:20px;border-radius:18px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+.also-card h4{font-family:var(--serif);font-weight:400;font-size:1.3rem;margin:0 0 6px}
+.also-card p{color:var(--soft);font-size:.95rem}
+.story-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:36px}
+@media (max-width:1020px){.read-progress{left:0;top:64px}}
+@media (max-width:900px){.story-toc{grid-template-columns:1fr 1fr}.chapter-body{grid-template-columns:1fr}.chapter-notes{position:static;border-top:1px solid var(--line-2);padding-top:18px}}
+@media (max-width:520px){.story-toc{grid-template-columns:1fr;gap:6px}.story-toc a{grid-template-columns:34px 1fr;align-items:center;padding:12px 14px}.story-toc span{font-size:1.2rem}.also-grid{grid-template-columns:1fr}.chapter-text>p{font-size:1.08rem}}
+
 /* ---------- Responsive ---------- */
 @media (max-width:1240px){
   :root{--rail:248px}
