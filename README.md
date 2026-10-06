@@ -14,7 +14,7 @@ This is one of three tailored portfolios built from the same background:
 
 - **Overview:** name, focus, and key facts, with a side rail for navigation and contact.
 - **Profile:** a short statement and bio, with psychology and helping others at the center.
-- **Why psychology (`story.html`):** an essay-style origin story in five chapters, with sidenotes, a reading progress bar, and a final chapter that connects psychology to this portfolio’s focus.
+- **Why psychology (`story.html`):** an essay-style origin story in five chapters, featuring psychologists whose ideas shaped her thinking, a reading progress bar, and a final chapter that connects psychology to this portfolio’s focus.
 - **Interests:** expanding panels for all three of her interest areas, with this portfolio’s main focus first.
 - **Experience:** a filterable explorer of every role, each with a timeline and a short takeaway. Roles most relevant to this portfolio are tagged.
 - **Competencies:** a matrix linking skills to the roles where they were built; selecting one filters the explorer.
