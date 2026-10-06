@@ -278,7 +278,10 @@ html:not(.js) .role-panel{position:static}
 .chapter{padding-block:clamp(40px,5vw,72px);border-bottom:1px solid var(--line-2)}
 .chapter:last-child{border-bottom:0}
 .chapter-head{max-width:680px;margin-bottom:28px}
-.chapter-num{display:block;font-size:.9rem;font-weight:600;color:var(--wine);margin-bottom:10px}
+.chapter-num{display:block;font-family:var(--serif);font-size:1.6rem;line-height:1;color:var(--wine);margin-bottom:12px}
+.pull footer{margin-top:12px;font-size:.88rem;color:var(--soft)}
+.pull footer cite{font-style:italic}
+.pull-cited p{font-size:clamp(1.4rem,2.4vw,1.95rem)}
 .chapter-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.2rem,4.2vw,3.6rem);line-height:1.02;letter-spacing:-.025em}
 .chapter-sub{font-family:var(--serif);font-style:italic;font-size:1.4rem;color:var(--wine);margin-top:12px}
 .chapter-body{display:grid;grid-template-columns:minmax(0,680px) minmax(180px,250px);gap:clamp(28px,5vw,72px);align-items:start}
